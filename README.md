@@ -31,7 +31,8 @@ dtoverlay_ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swapxy
 #### Install Driver On Raspbian
 ~~~
 https://github.com/goodtft/LCD-show
-Download the ZIP package and Extract
-Go to the extracted directory and run the command
-sudo ./LCD5-show-master
+Download the ZIP package and extract the files
+
+Go to the extracted directory and run the command:
+    sudo ./LCD5-show-master
 ~~~

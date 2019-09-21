@@ -2,9 +2,13 @@
 
 [Product Website](https://www.elecrow.com/hdmi-5-inch-800x480-tft-display-for-raspberry-pi-b-p-1384.html)
 
+
+
 #### Device
 * Raspberry Pi 3 Model B+
 * OS: Raspbian
+
+
 
 #### [Config File](https://github.com/bdalldorf/Elecrow-RR050-HDMI-TFT-Display/blob/master/config.txt)
 * Note: This disabled the keyboard and mouse to enable the touchscreen.
@@ -21,6 +25,8 @@ hdmi_cvt 800 480 6 0 0 0
 dtoverlay_ads7846,cs=1,penirq=25,penirq_pull=2,speed=50000,keep_vref_on=0,swapxy=0,pmax=255,xohms=150,xmin=200,xmax=3900,ymin=200,ymax=3900,display_rotate=0
 # --- end elecrow-pitft-setup ---
 ~~~
+
+
 
 #### Install Driver On Raspbian
 ~~~

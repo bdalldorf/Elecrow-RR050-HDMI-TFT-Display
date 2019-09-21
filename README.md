@@ -34,5 +34,5 @@ https://github.com/goodtft/LCD-show
 Download the ZIP package and extract the files
 
 Go to the extracted directory and run the command:
-    sudo ./LCD5-show-master
+sudo ./LCD5-show-master
 ~~~
